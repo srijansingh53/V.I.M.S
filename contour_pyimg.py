@@ -1,8 +1,6 @@
 import imutils
 import cv2
 
-
-
 image = cv2.imread("hand3.jpg")
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 gray = cv2.GaussianBlur(gray, (5,5), 0)
